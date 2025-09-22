@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbennett1979/banana-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidbennett1979/banana-app/issues"
+  },
+  "homepage": "https://github.com/davidbennett1979/banana-app#readme",
+  "dependencies": {
+    "@fastify/env": "^5.0.2",
+    "@fastify/postgres": "^6.0.2",
+    "@types/node": "^24.5.2",
+    "@types/pg": "^8.15.5",
+    "fastify": "^5.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
